@@ -1,27 +1,15 @@
 
-// import TestimonialsCarousel from './component/Testimonials/TestimonialsCarousel'
-// function App() {
-//   return (
-//     <div className="min-h-screen flex items-center justify-center bg-gray-900">
-//       <h1 className="text-5xl font-bold text-blue-400">
-//         Tailwind is Working 🎉
-//         <TestimonialsCarousel/>
-//       </h1>
-//     </div>
-//   )
-// }
-
-// export default App
-// src/App.jsx
 import React from "react";
 import TestimonialsCarousel from "./component/TestimonialsCarousel";
+import FeaturePage from './pages/FeaturePage'
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
-      
+      <FeaturePage />
       <TestimonialsCarousel />
     </div>
+    
   );
 }
 
